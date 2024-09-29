@@ -17,7 +17,10 @@ Ansible is an open-source automation tool that simplifies IT tasks such as confi
 - **Inventory**: A file listing the hosts and groups of hosts that Ansible manages.
 - **Modules**: Reusable units of work that Ansible executes (e.g., installing packages, managing services).
 - **Roles**: A way to organize playbooks and reusable code into structured directories.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------
+# NOTE:
+### host and target machines python versions should be same otherwise you get errors
+
 # my ansible
   -- install ansible
   -- setup ssh b/w ansible server (host) and target machines (A password less access)
